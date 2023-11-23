@@ -2,6 +2,7 @@ import torch
 import torch.nn as nn
 from hw_tts.configs.config import FastSpeechConfig 
 import numpy as np
+import torch.nn.functional as F
 
 def create_alignment(base_mat, duration_predictor_output):
     N, L = duration_predictor_output.shape

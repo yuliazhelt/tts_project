@@ -94,8 +94,6 @@ import torch.nn.functional as F
 import numpy as np
 import os
 
-import hparams
-
 
 def process_text(train_text_path):
     with open(train_text_path, "r", encoding="utf-8") as f:
