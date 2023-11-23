@@ -1,5 +1,26 @@
 # Homework 3 (TTS)
 
+## Installation guide
+
+Load trained model:
+```shell
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r ./requirements.txt
+python3 load_model.py
+```
+\+ run bash script `prepare.sh` in order to install all auxilary modules and prepared data
+
+## Reproduction
+Train for 50000 steps
+
+```
+python train.py
+```
+
+## Results
+[WandB Report with audio samples](https://wandb.ai/yuliazhelt/tts_project/reports/FastSpeech2--Vmlldzo2MDYxOTE1)
+
 ## Task
 Implement [FastSpeech2](https://arxiv.org/pdf/2006.04558.pdf).
 

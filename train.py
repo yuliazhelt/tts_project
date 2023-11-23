@@ -85,7 +85,7 @@ def main():
     data_list = get_data(train_config)
 
 
-    for epoch in range(1):
+    for epoch in range(train_config.epochs):
         model.train()
         for i, batches in tqdm(enumerate(training_loader)):
             # real batch start here
