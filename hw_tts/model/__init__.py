@@ -1,5 +1,5 @@
-from hw_asr.model.baseline_model import BaselineModel
+from hw_tts.model.FastSpeech2 import FastSpeech2
 
 __all__ = [
-    "BaselineModel",
+    "FastSpeech2"
 ]
